@@ -12,6 +12,7 @@ local L = BetterBags:GetModule('Localization')
 for categoryName, info in pairs(addon.db.search) do 
 	categories:CreateCategory({
 		name = L:G(categoryName), 
+		itemList = {}, 
 		searchCategory = {
 			query = info.queryString
 		}, 
