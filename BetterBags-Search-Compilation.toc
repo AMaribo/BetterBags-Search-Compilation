@@ -1,0 +1,17 @@
+## Interface: 110002
+
+## Title: BetterBags - Simple Search Compilation
+## Notes: A BetterBags Plugin to add a few simple search-based categories.
+## Author: AMaribo
+## Version: @project-version@
+
+## X-Date: @project-date-iso@
+## X-License: MIT
+## X-Category: Bags & Inventory
+## X-Curse-Project-ID: 
+
+## Dependencies: BetterBags
+
+boot.lua
+db-search.lua
+main.lua

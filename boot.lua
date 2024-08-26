@@ -1,0 +1,3 @@
+local _, addon = ...
+
+addon.db = addon.db or {}
