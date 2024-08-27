@@ -29,9 +29,13 @@ local db = {
 		queryString = "binding = boe", 
 		prio = 48, 
 	}, 
-	["Warbound"] = {
+	["Warbound Gear"] = {
 		queryString = "binding = warbound and (type = weapon or type = armor)", 
 		prio = 47, 
+	}, 
+	["Warbound Other"] = {
+		queryString = "binding = warbound and (type != weapon and type != armor)", 
+		prio = 50, 
 	}, 
 }
 
