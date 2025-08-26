@@ -2,15 +2,15 @@ local _, addon = ...
 
 local db = {
 	["Weapons"] = {
-		queryString = "(type = weapon or slot %= 'off hand' or slot %= 'held in') and not category = 'gear:' and ilvl > 490", 
+		queryString = "(type = weapon or slot %= 'off hand' or slot %= 'held in') and not (category = 'gear:') and ilvl > 490", 
 		prio = 55, 
 	}, 
 	["Armour"] = {
-		queryString = "type = armor and not (slot %= 'off hand' or slot %= 'held in') and not category = 'gear:' and ilvl > 490", 
+		queryString = "type = armor and not (slot %= 'off hand' or slot %= 'held in') and not (category = 'gear:') and ilvl > 490", 
 		prio = 54, 
 	}, 
 	["Jewellery"] = {
-		queryString = "slot = finger or slot = neck and not (category = 'gear:') and ilvl > 490", 
+		queryString = "(slot = finger or slot = neck) and not (category = 'gear:') and ilvl > 490", 
 		prio = 53, 
 	}, 
 	["Trinkets"] = {
@@ -42,7 +42,7 @@ local db = {
 		prio = 46, 
 	}, 
 	["Raid Consumables"] = {
-		queryString = "subtype = potion or subtype = flask or (type = consumable and rune) or name %= 'eggs' or name %= 'revenge' or name %= \"beledar's b\" and rarity >= common or (type = consumable and ironclaw) or (type = consumable and oil and exp = tww", 
+		queryString = "subtype = potion or subtype = flask or (type = consumable and rune) or name %= 'eggs' or name %= 'revenge, ' or name %= \"beledar's b\" and rarity >= common or (type = consumable and ironclaw) or (type = consumable and oil and exp = tww)", 
 		prio = 50, 
 	}, 
 }
