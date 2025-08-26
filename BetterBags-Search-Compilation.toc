@@ -1,4 +1,4 @@
-## Interface: 110007, 110100
+## Interface: 110200
 
 ## Title: BetterBags - Simple Search Compilation
 ## Notes: A BetterBags Plugin to add a few simple search-based categories.
