@@ -1,4 +1,4 @@
-## Interface: 110207, 120000
+## Interface: 110207, 120000, 120001
 
 ## Title: BetterBags - Simple Search Compilation
 ## Notes: A BetterBags Plugin to add a few simple search-based categories.
@@ -8,7 +8,7 @@
 ## X-Date: @project-date-iso@
 ## X-License: MIT
 ## X-Category: Bags & Inventory
-## X-Curse-Project-ID: 
+## X-Curse-Project-ID: 1091635
 
 ## Dependencies: BetterBags
 

@@ -13,6 +13,12 @@ A compilation of some simple search-based categories for BetterBags.
 - Warbound Other
 - Warbound - Old Expansion
 - Raid Consumables
+- Delve
+- Midnight Profession Knowledge
+- Housing Decor
+- Housing Dyes
+- Housing Lumber
+- Other Housing
 
 
 If you notice anything miscategorized, please let me know.
