@@ -67,8 +67,12 @@ local db = {
 	}, 
 	["Delve"] = {
 		queryString = "'combat curio' OR 'utility curio'",
-		prio = 59
+		prio = 59,
 	}, 
+	["Midnight Weekly Caches"] = {
+		queryString = "('pinnacle cache' OR 'Preyseeker') AND type = consumable",
+		prio = 61,
+	},
 }
 
 addon.db.search = db
